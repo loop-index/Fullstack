@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+body {
+    /* background: linear-gradient(to bottom, darkblue, darkslateblue); */
+    background: darkslateblue;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.panel {
+    width: 40%;
+    /* height: 30%; */
+    position: absolute;
+    left: 30%;
+    top: 20%;
+
+    background: antiquewhite;
+    padding: 0px 20px 0px 20px;
+    border-radius: 10px;
+}
+
+.input {
+    font-size: 20px;
+}
+
+input {
+    height: 25px;
+    width: 150px;
+    font-size: 20px;
+    position: relative;
+    top: 2px;
+}
+
+.input button {
+    background: orangered;
+    text-align: center;
+    font-size: 17px;
+    color: white;
+    font-weight: bold;
+    height: 30px;
+    width: 80px;
+    border-radius: 5px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 15px 15px;
+}
+
+#options {
+    width: 100%;
+    text-align: center;
+}
+
+#options button {
+    background: rgb(16, 21, 31);
+    font-size: 17px;
+    color: white;
+    font-weight: bold;
+    height: 30px;
+    border-radius: 5px;
+}
